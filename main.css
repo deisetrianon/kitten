@@ -2,16 +2,20 @@ html , body {
   height: 100%;
 }
 
+body {
+  background-size: cover;
+}
+
 body , .kitten {
   margin: 0 auto;
   background-repeat: no-repeat;
-  background-size: auto 100%;
 }
 
 .kitten {
   position: fixed;
   bottom: 0;
   height: 285px;
+  background-size: auto 100%;
 }
 
 
@@ -42,7 +46,6 @@ body , .kitten {
 @media screen and (min-width: 900px) {
   body {
     background-image: url(images/sunny-day.jpg);
-    background-size: cover;
   }
 
   .kitten {
